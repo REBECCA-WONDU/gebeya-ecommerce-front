@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link rel="stylesheet" href="cartPage.css" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="bg-white py-2 border-b">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center gap-8">
+            <a href="#" class="text-lg font-bold"><img src="image/logo.png"</a>
+            <div class="hidden md:flex items-center gap-4">
+              <a href="#" class="text-gray-600"
+                ><i class="fa-solid fa-user" style="margin-right: 5px"></i
+                >Register/Signin
+                <i
+                  class="fa-solid fa-chevron-down"
+                  style="margin-left: 5px; margin-right: 20px"
+                ></i
+              ></a>
+              <a href="#" class="text-gray-600">Home</a>
+              <a href="#" class="text-gray-600">Men</a>
+              <a href="#" class="text-gray-600">Women</a>
+              <a href="#" class="text-gray-600">Kids</a>
+              <a href="#" class="text-gray-600">Accessories</a>
+              <a href="#" class="text-gray-600"
+                >More
+                <i
+                  class="fa-solid fa-chevron-down"
+                  style="margin-left: 5px; margin-right: 20px"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="flex items-center gap-10">
+            <div
+              class="relative"
+              style="padding-left: 30px; padding-right: 30px"
+            >
+              <input
+                type="text"
+                placeholder="Search"
+                class="border px-1 py-0 rounded-l-md"
+                style="
+                  border-top-left-radius: 8px;
+                  border-bottom-left-radius: 8px;
+                "
+              />
+              <button
+                class="absolute right-0 top-0 px-2 py-1 text-white bg-purple-600 rounded-r-md"
+                style="
+                  border-top-right-radius: 8px;
+                  border-bottom-right-radius: 8px;
+                "
+              >
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+
+            <a
+              href="#"
+              class="text-gray-600"
+              style="font-size: 12px; display: inline-block"
+            >
+              <img
+                src="image/flag.png"
+                style="
+                  width: 20px;
+                  height: 20px;
+                  border-radius: 10px;
+                  display: inline-block;
+                "
+              />
+              EN/Currency
+              <i
+                class="fa-solid fa-chevron-down"
+                style="
+                  margin-left: 0px;
+                  margin-right: 0px;
+                  display: inline-block;
+                "
+              ></i>
+            </a>
+            <a href="#" class="text-gray-400">
+              <i class="far fa-heart"></i>
+            </a>
+            <a href="#" class="text-purple-400">
+              <img
+                src="image/notify.png"
+                style="height: 30px; width: 30px; border-radius: 15px"
+              />
+            </a>
+          </div>
+          <a href="#" class="text-gray-600 md:hidden">Menu</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <!-- Breadcrumb -->
+      <div class="breadcrumb">
+        <a href="#" >Home</a> > <a href="#">Kids</a> > <a href="#" >Shoes</a> >
+        <p style="font-weight:bold;display: inline-block; ">Sneakers</p>
+      </div>
+
+      <div class="product-page">
+        <!-- Product Details -->
+        <div class="product-details">
+          <!-- Image Section -->
+          <div class="product-images">
+            <img
+              src="image/shoes2.png"
+              alt="Main Product"
+              class="main-image"
+              style="background-color: #f2f2f2; border-radius: 15px"
+            />
+            <div class="thumbnail-images">
+              <img
+                src="image/shoes2.png"
+                alt="Thumbnail 1"
+                style="background-color: #f2f2f2"
+              />
+              <img
+                src="image/shoes2.png"
+                alt="Thumbnail 2"
+                style="background-color: #f2f2f2"
+              />
+              <img
+                src="image/shoes2.2.png"
+                alt="Thumbnail 3"
+                style="background-color: #f2f2f2"
+              />
+              <img
+                src="image/shoes2.3.png"
+                alt="Thumbnail 4"
+                style="background-color: #f2f2f2"
+              />
+            </div>
+            <p
+              style="
+                font-size: 18px;
+                margin-top: 50px;
+                font-weight: 100;
+                margin-bottom: 10px;
+                margin-left: 20px;
+              "
+            >
+              Share this products
+            </p>
+            <div class="social-icons">
+              <a href="#"
+                ><i
+                  class="fa-brands fa-instagram"
+                  style="width: 20px; height: 20px"
+                  ;
+                  font:40px;
+                ></i
+              ></a>
+              <a href="#"><i class="fa-brands fa-whatsapp"></i> </a>
+              <a href="#"
+                ><img
+                  src="image/x-twitter-brands-solid.svg"
+                  style="margin-top: 6px"
+              /></a>
+            </div>
+          </div>
+
+          <!-- Information Section -->
+          <div class="product-info">
+            <h1>Burberry shine</h1>
+            <img
+              src="image/heart2.png"
+              style="
+                position: absolute;
+                right: 5px;
+                top: 7px;
+                width: 50px;
+                height: 50px;
+              "
+            />
+            <p class="brand">Brand: FENDI</p>
+            <hr style="border: 1px solid #ccc; margin: 10px 0; width: 370px" />
+
+            <div class="price">
+              <span class="current-price">$150</span>
+              <span class="original-price">$300</span>
+              <span class="discount">50% off</span>
+            </div>
+            <p style="color: #006200">50 units left</p>
+            <p class="shipping">+ Shipping fee may vary on location</p>
+            <p class="rating" style="display: inline-block">
+              <img
+                src="image/star.png"
+                style="
+                  width: 20px;
+                  height: 20px;
+                  border-radius: 15px;
+                  display: inline-block;
+                "
+              />
+              1k+ rating
+            </p>
+            <hr style="border: 1px solid #ccc; margin: 10px 0; width: 400px" />
+            <!-- Quantity and Options -->
+            <div class="options">
+              <div class="quantity">
+                <label for="quantity" style="margin-right: 10px"
+                  >Quantity:</label
+                >
+                <button>-</button>
+                <input type="text" value="1" id="quantity" />
+                <button>+</button>
+              </div>
+
+              <!-- Size -->
+              <div class="size">
+                <label>Size:</label>
+                <button>20</button>
+                <button>25</button>
+                <button>32</button>
+                <button>37</button>
+                <span class="size-guides">See all size guides</span>
+              </div>
+
+              <!-- Color -->
+              <div class="color">
+                <label>Color:</label>
+                <div class="color-option" style="background: pink"></div>
+                <div class="color-option" style="background: blue"></div>
+                <div class="color-option" style="background: red"></div>
+                <div class="color-option" style="background: black"></div>
+              </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="action-buttons">
+              <button class="save">
+                <img
+                  src="image/lock.png"
+                  style="
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    margin-left: -20px;
+                    margin-right: 10px;
+                  "
+                />Save for later
+              </button>
+              <a class="buy" href="checkoutPage.html">Buy now</a>
+            </div>
+            <p
+              class="pickup"
+              style="
+                margin-left: 80px;
+                margin-bottom: 40px;
+                color: #006200;
+                font-size: 17px;
+              "
+            >
+              Pickup & Pay on collection available
+            </p>
+          </div>
+        </div>
+
+        <!-- Delivery & Returns Section -->
+        <div class="delivery-returns">
+          <h2>Delivery & Returns</h2>
+          <div class="location">
+            <label for="location">Location</label>
+            <select id="location">
+              <option>Select location</option>
+            </select>
+            <label for="sublocation">Sub-location</label>
+            <select id="sublocation">
+              <option>Select sub-location</option>
+            </select>
+          </div>
+          <div class="delivery-info">
+            <h3>
+              <img
+                src="image/delivery.png"
+                style="width: 30px; height: 30px"
+              />Delivery
+            </h3>
+            <p>Estimated delivery time is 1-12 business days</p>
+            <p>For Same-Day Delivery: Please place your order before 12pm</p>
+            <p>
+              Next-Day Delivery: Orders placed after 12pm will be delivered the
+              next day.
+            </p>
+            <p>Note: Availability may vary by location</p>
+          </div>
+          <div class="return-policy">
+            <h3>
+              <img
+                src="image/return.png "
+                style="width: 30px; height: 30px"
+              />Return policy
+            </h3>
+            <p>Guaranteed 7-day return policy</p>
+            <p>
+              For details about return shipping options, please visit our
+              Contact page
+            </p>
+          </div>
+        </div>
+        </div>
+
+        <!-- Other sections remain unchanged -->
+
+        <div class="bg-gray-100 " style="margin-top: 50px; height: auto;">
+            <div class="bg-white p-8 rounded-lg shadow-md" style="height: auto;">
+                <div class="flex justify-around text-xs border-b-2 border-gray-200 pb-2 mb-4">
+                    <button class="cursor-pointer font-semibold text-orange-500" style="border: 1px solid #c1c1c1; border-radius: 15px;padding: 5px 25px;font-size: 15px; color:white; background-color: #FEA301; font-weight: 400;">Overview</button>
+                    <button class="cursor-pointer text-gray-500" style="border: 1px solid #c1c1c1; border-radius: 15px;padding: 5px 25px;font-size: 15px; color:black;  font-weight: 400;">Description</button>
+                    <button class="cursor-pointer text-gray-500" style="border: 1px solid #c1c1c1; border-radius: 15px;padding: 5px 25px;font-size: 15px; color:black;  font-weight: 400;">Warranty</button>
+                    <button class="cursor-pointer text-gray-500" style="border: 1px solid #c1c1c1; border-radius: 15px;padding: 5px 25px;font-size: 15px; color:black;  font-weight: 400;">Reviews</button>
+                </div>
+                <ul class="text-xs space-y-2">
+                    <li style="line-height: 1rem; font-size: 1rem;"><img src="image/bullet.png" style="width: 8px;height: 8px; display: inline-block; margin-right: 5px;"/>Available in a wide range of colors, patterns, and themes to appeal to kids.</li>
+                    <li style="line-height: 1rem; font-size: 1rem;"><img src="image/bullet.png" style="width: 8px;height: 8px; display: inline-block; margin-right: 5px;"/>Rubber outsoles with good traction to prevent slips and falls.</li>
+                    <li style="line-height: 1rem; font-size: 1rem;"><img src="image/bullet.png" style="width: 8px;height: 8px; display: inline-block; margin-right: 5px;"/>Built-in arch support to help maintain healthy foot development.</li>
+                    <li style="line-height: 1rem; font-size: 1rem;"><img src="image/bullet.png" style="width: 8px;height: 8px; display: inline-block; margin-right: 5px;"/>Soft insoles and adequate padding to support growing feet.</li>
+                </ul>
+                <hr style="border: 1px solid #c1c1c1; margin: 10px 0; width: auto;margin-top: 50px;"  />
+                <div class="mt-6">
+                    <h3 class="font-bold text-lg mb-4">Similar items you may like</h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="product-card" style="position: relative">
+                            <img
+                              src="image/shera1.png"
+                              alt="French Kiss Bag"
+                              style="position: relative"
+                            />
+                            <div
+                              style="
+                                display: flex;
+                                position: absolute;
+                                background-color: white;
+                                width: 30px;
+                                height: 30px;
+                                align-items: center;
+                                justify-content: center;
+                                top: 30px;
+                                left: 30px;
+                                border-radius: 15px;
+                              "
+                            >
+                              <i
+                                class="far fa-heart"
+                                style="top: 9px; position: absolute; left: 7px"
+                              ></i>
+                            </div>
+                            <div
+                              style="
+                                display: flex;
+                                position: absolute;
+                                background-color: white;
+                                width: auto;
+                                padding: 5px 5px;
+                                border-radius: 15px;
+                                top: 30px;
+                                right: 30px;
+                              "
+                            >
+                              <p style="font-size: 14px; display: inline">In Stock</p>
+                            </div>
+                            <div
+                              style="
+                                display: flex;
+                                position: absolute;
+                                border: 1px solid #c1c1c1;
+                                width: auto;
+                                padding: 5px 10px;
+                                border-radius: 25px;
+                                top: 190px;
+                                left: 10px;
+                              "
+                            >
+                              <p style="font-size: 14px; display: inline">Women</p>
+                            </div>
+                            <p class="rating" style="padding-left: 250px; display: inline-block">
+                              <img
+                                src="image/star.png"
+                                style="
+                                  width: 30px;
+                                  height: 30px;
+                                  border-radius: 15px;
+                                  display: inline-block;
+                                  margin-top: 5px;
+                                "
+                              />
+                              3k+ rating
+                            </p>
+                  
+                            <p class="product-title">Blutin Blue</p>
+                            <p class="product-title-brand">FENDI</p>
+                            <p class="product-price">$180</p>
+                  
+                            <button class="add-to-cart">Add to cart</button>
+                          </div>
+                          <div class="product-card" style="position: relative; margin-left: -186px;">
+                            <img
+                              src="image/shera2.png"
+                              alt="Burberry Shine"
+                              style="position: relative"
+                            />
+                            <div
+                              style="
+                                display: flex;
+                                position: absolute;
+                                background-color: white;
+                                width: 30px;
+                                height: 30px;
+                                align-items: center;
+                                justify-content: center;
+                                top: 30px;
+                                left: 30px;
+                                border-radius: 15px;
+                              "
+                            
+                              <i
+                                class="far fa-heart"
+                                style="top: 9px; position: absolute; left: 7px"
+                              ></i>
+                            </div>
+                            <div
+                              style="
+                                display: flex;
+                                position: absolute;
+                                background-color: white;
+                                width: auto;
+                                padding: 5px 5px;
+                                border-radius: 15px;
+                                top: 30px;
+                                right: 30px;
+                              "
+                            >
+                              <p style="font-size: 14px; display: inline">In Stock</p>
+                            </div>
+                            <div
+                              style="
+                                display: flex;
+                                position: absolute;
+                                border: 1px solid #c1c1c1;
+                                width: auto;
+                                padding: 5px 10px;
+                                border-radius: 25px;
+                                top: 190px;
+                                left: 10px;
+                              "
+                            >
+                              <p style="font-size: 14px; display: inline">Women</p>
+                            </div>
+                            <p class="rating" style="padding-left: 250px; display: inline-block">
+                              <img
+                                src="image/shera2.png"
+                                style="
+                                  width: 30px;
+                                  height: 30px;
+                                  border-radius: 15px;
+                                  display: inline-block;
+                                  margin-top: 5px;
+                                "
+                              />
+                              1k+ rating
+                            </p>
+                            <p class="product-title">Pink Cherry</p>
+                            <p class="product-title-brand">FENDI</p>
+                            <p class="product-price">$180</p>
+                  
+                            <button class="add-to-cart">Add to cart</button>
+                          </div>
+</div>
+</div>
+</div>
+</div>
+
+<footer class="footer">
+    <div class="footer-container">
+      <!-- Logo Section -->
+      <div class="footer-logo">
+        <img src="image/logo2.png" alt="Logo" class="logo">
+        <div class="social-icons">
+          <a href="#"><img src="image/insta.png" alt="Instagram"></a>
+          <a href="#"><img src="image/messenger.png" alt="WhatsApp"></a>
+          <a href="#"><img src="image/X.png" alt="Close"></a>
+        </div>
+      </div>
+  
+      <!-- Links Section -->
+      <div class="footer-links">
+        <div class="link-column" >
+          <h4 style="margin-left: -20px;">About</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">News & Blog</a></li>
+            <li><a href="#">Location</a></li>
+          </ul>
+        </div>
+        <div class="link-column">
+          <h4 style="margin-left: -20px;">Products</h4>
+          <ul>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Features</a></li>
+          </ul>
+        </div>
+        <div class="link-column">
+          <h4 style="margin-left: -20px;">Discover</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Affiliates</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>  </body>
+</html>

@@ -1,0 +1,607 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpage Recreation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="bg-white py-2 border-b">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center gap-8">
+            <a href="#" class="text-lg font-bold"><img src="image/logo.png"</a>
+            <div class="hidden md:flex items-center gap-4">
+              <a href="#" class="text-gray-600"
+                ><i class="fa-solid fa-user" style="margin-right: 5px"></i
+                >Register/Signin
+                <i
+                  class="fa-solid fa-chevron-down"
+                  style="margin-left: 5px; margin-right: 20px"
+                ></i
+              ></a>
+              <a href="#" class="text-gray-600">Home</a>
+              <a href="#" class="text-gray-600">Men</a>
+              <a href="#" class="text-gray-600">Women</a>
+              <a href="#" class="text-gray-600">Kids</a>
+              <a href="#" class="text-gray-600">Accessories</a>
+              <a href="#" class="text-gray-600"
+                >More
+                <i
+                  class="fa-solid fa-chevron-down"
+                  style="margin-left: 5px; margin-right: 20px"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="flex items-center gap-10">
+            <div
+              class="relative"
+              style="padding-left: 30px; padding-right: 30px"
+            >
+              <input
+                type="text"
+                placeholder="Search"
+                class="border px-1 py-0 rounded-l-md"
+                style="
+                  border-top-left-radius: 8px;
+                  border-bottom-left-radius: 8px;
+                "
+              />
+              <button
+                class="absolute right-0 top-0 px-2 py-1 text-white bg-purple-600 rounded-r-md"
+                style="
+                  border-top-right-radius: 8px;
+                  border-bottom-right-radius: 8px;
+                "
+              >
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+
+            <a
+              href="#"
+              class="text-gray-600"
+              style="font-size: 12px; display: inline-block"
+            >
+              <img
+                src="image/flag.png"
+                style="
+                  width: 20px;
+                  height: 20px;
+                  border-radius: 10px;
+                  display: inline-block;
+                "
+              />
+              EN/Currency
+              <i
+                class="fa-solid fa-chevron-down"
+                style="
+                  margin-left: 0px;
+                  margin-right: 0px;
+                  display: inline-block;
+                "
+              ></i>
+            </a>
+            <a href="#" class="text-gray-400">
+              <i class="far fa-heart"></i>
+            </a>
+            <a href="#" class="text-purple-400">
+              <img
+                src="image/notify.png"
+                style="height: 30px; width: 30px; border-radius: 15px"
+              />
+            </a>
+          </div>
+          <a href="#" class="text-gray-600 md:hidden">Menu</a>
+        </div>
+      </div>
+    </nav>
+    <header class="max-w-7xl mx-auto mt-12 px-4">
+      <div
+        class="flex flex-col md:flex-row items-center justify-between gap-8 bg-[#6b4cff]"
+        style="margin-left: 50px;background-color: #882BEC;"
+
+      >
+        <div>
+          <h1
+            class="font-bold text-white text-6xl leading-tight mt-9"
+            style="
+              margin-top: 50px;
+              display: inline-block;
+              font-size: 100px;
+              margin-right: 40px;
+            
+            "
+          >
+            Gebeya
+          </h1>
+          <img
+            src="image/frontimg.png"
+            alt="Man wearing a fashionable jacket and sunglasses, in a stylish pose"
+            class="rounded-full w-64 h-64 object-cover"
+            style="display: inline-block; flex: 1"
+          />
+          <img
+            src="image/sneaker.png"
+            alt="White low top sneaker"
+            class="rounded-full w-40 h-40 object-cover mt-3"
+            style="margin-left: 100px"
+          />
+          <button
+            class="mt-6 bg-yellow-500 text-white px-6 py-2 font-bold rounded"
+            style="margin-left: 470px; margin-top: -90px; width: 250px"
+          >
+            Explore Now
+          </button>
+        </div>
+        <div style="display: flex 1">
+          <p
+            class="text-white max-w-sm"
+            style="margin-top: 40px; font-size: 18px"
+          >
+            Discover a world of convenience with our user-friendly platform,
+            curated collections, and exceptional customer service.
+          </p>
+          <p
+            style="
+              font-size: 130px;
+              color: white;
+              font-weight: 700;
+              margin-top: 30px;
+            "
+          >
+            SHOP
+          </p>
+          <img
+            src="image/shirt.png"
+            alt="Colorful child's top with unicorn print"
+            class="rounded-full w-40 h-40 object-cover mt-2"
+          />
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="header">
+        <h1>Latest Collections</h1>
+      </div>
+
+      <div class="product-grid">
+        <div class="product-card" style="position: relative">
+          <img
+            src="image/p1.png"
+            alt="French Kiss Bag"
+            style="position: relative"
+          />
+          <div
+            style="
+              display: flex;
+              position: absolute;
+              background-color: white;
+              width: 30px;
+              height: 30px;
+              align-items: center;
+              justify-content: center;
+              top: 30px;
+              left: 30px;
+              border-radius: 15px;
+            "
+          >
+            <i
+              class="far fa-heart"
+              style="top: 9px; position: absolute; left: 7px"
+            ></i>
+          </div>
+          <div
+            style="
+              display: flex;
+              position: absolute;
+              background-color: white;
+              width: auto;
+              padding: 5px 5px;
+              border-radius: 15px;
+              top: 30px;
+              right: 30px;
+            "
+          >
+            <p style="font-size: 14px; display: inline">In Stock</p>
+          </div>
+          <div
+            style="
+              display: flex;
+              position: absolute;
+              border: 1px solid #c1c1c1;
+              width: auto;
+              padding: 5px 10px;
+              border-radius: 25px;
+              top: 190px;
+              left: 10px;
+            "
+          >
+            <p style="font-size: 14px; display: inline">Women</p>
+          </div>
+          <p class="rating" style="padding-left: 250px; display: inline-block">
+            <img
+              src="image/star.png"
+              style="
+                width: 30px;
+                height: 30px;
+                border-radius: 15px;
+                display: inline-block;
+                margin-top: 5px;
+              "
+            />
+            3k+ rating
+          </p>
+
+          <p class="product-title">French Kiss Bag</p>
+          <p class="product-title-brand">ALDO</p>
+          <p class="product-price">$500</p>
+
+          <a class="add-to-cart" href="cartPage.html">Add to cart</a>
+        </div>
+        <div class="product-card" style="position: relative">
+          <img
+            src="image/p2.png"
+            alt="Burberry Shine"
+            style="position: relative"
+          />
+          <div
+            style="
+              display: flex;
+              position: absolute;
+              background-color: white;
+              width: 30px;
+              height: 30px;
+              align-items: center;
+              justify-content: center;
+              top: 30px;
+              left: 30px;
+              border-radius: 15px;
+            "
+          >
+            <i
+              class="far fa-heart"
+              style="top: 9px; position: absolute; left: 7px"
+            ></i>
+          </div>
+          <div
+            style="
+              display: flex;
+              position: absolute;
+              background-color: white;
+              width: auto;
+              padding: 5px 5px;
+              border-radius: 15px;
+              top: 30px;
+              right: 30px;
+            "
+          >
+            <p style="font-size: 14px; display: inline">In Stock</p>
+          </div>
+          <div
+            style="
+              display: flex;
+              position: absolute;
+              border: 1px solid #c1c1c1;
+              width: auto;
+              padding: 5px 10px;
+              border-radius: 25px;
+              top: 190px;
+              left: 10px;
+            "
+          >
+            <p style="font-size: 14px; display: inline">Women</p>
+          </div>
+          <p class="rating" style="padding-left: 250px; display: inline-block">
+            <img
+              src="image/star.png"
+              style="
+                width: 30px;
+                height: 30px;
+                border-radius: 15px;
+                display: inline-block;
+                margin-top: 5px;
+              "
+            />
+            1k+ rating
+          </p>
+          <p class="product-title">Burberry Shine</p>
+          <p class="product-title-brand">FENDI</p>
+          <p class="product-price">$150</p>
+
+          <a class="add-to-cart" href="cartPage.html">Add to cart</a>
+        </div>
+        <div class="product-card" style="position: relative">
+          <img
+            src="image/p1.png"
+            alt="Alvero Gown"
+            style="position: relative"
+          />
+          <div
+            style="
+              display: flex;
+              position: absolute;
+              background-color: white;
+              width: 30px;
+              height: 30px;
+              align-items: center;
+              justify-content: center;
+              top: 30px;
+              left: 30px;
+              border-radius: 15px;
+            "
+          >
+            <i
+              class="far fa-heart"
+              style="top: 9px; position: absolute; left: 7px"
+            ></i>
+          </div>
+
+          <div
+            style="
+              display: flex;
+              position: absolute;
+              background-color: white;
+              width: auto;
+              padding: 5px 5px;
+              border-radius: 15px;
+              top: 30px;
+              right: 30px;
+            "
+          >
+            <p style="font-size: 14px; display: inline">In Stock</p>
+          </div>
+          <div
+            style="
+              display: flex;
+              position: absolute;
+              border: 1px solid #c1c1c1;
+              width: auto;
+              padding: 5px 10px;
+              border-radius: 25px;
+              top: 190px;
+              left: 10px;
+            "
+          >
+            <p style="font-size: 14px; display: inline">Women</p>
+          </div>
+          <p class="rating" style="padding-left: 250px; display: inline-block">
+            <img
+              src="image/star.png"
+              style="
+                width: 30px;
+                height: 30px;
+                border-radius: 15px;
+                display: inline-block;
+                margin-top: 5px;
+              "
+            />
+            5k+ rating
+          </p>
+          <p class="product-title">Alvero Gown</p>
+          <p class="product-title-brand">DIVINE</p>
+          <p class="product-price">$300</p>
+
+          <a class="add-to-cart" href="cartPage.html">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="category-tabs">
+        <button class="active">Women</button>
+        <button>Men</button>
+        <button>Kids</button>
+        <button>Perfumes</button>
+        <button>Sport</button>
+        <button>Jewelry</button>
+      </div>
+
+      <div class="category-grid">
+        <div class="category-item">
+          <div class="image-container">
+            <img src="image/shoes.png" alt="Shoes" />
+          </div>
+          <p>Shoes</p>
+          <p style="font-weight: 400;font-size: small; color: #808080;">See All Collections</p>
+        </div>
+        <div class="category-item">
+          <div class="image-container">
+            <img src="image/bag.png" alt="Bags" />
+          </div>
+          <p>Bags</p>
+          <p style="font-weight: 400;font-size: small; color: #808080;">See All Collections</p>
+        </div>
+        <div class="category-item">
+          <div class="image-container">
+            <img src="image/jacket.png" alt="Jackets" />
+          </div>
+          <p>Jackets</p>
+          <p style="font-weight: 400;font-size: small; color: #808080;">See All Collections</p>
+        </div>
+        <div class="category-item">
+          <div class="image-container">
+            <img src="image/lingeri.png" alt="Lingerie" />
+          </div>
+          <p>Lingerie</p>
+          <p style="font-weight: 400;font-size: small; color: #808080;">See All Collections</p>
+        </div>
+        <div class="category-item">
+          <div class="image-container">
+            <img src="image/belts.png" alt="Belts" />
+          </div>
+          <p>Belts</p>
+          <p style="font-weight: 400;font-size: small; color: #808080;">See All Collections</p>
+        </div>
+        <div class="category-item">
+          <div class="image-container">
+            <img src="image/street wear.png" alt="Street Wear" />
+          </div>
+          <p>Street Wear</p>
+          <p style="font-weight: 400;font-size: small; color: #808080;">See All Collections</p>
+
+        </div>
+        <div class="category-item">
+          <div class="image-container">
+            <img src="" alt="Shoes" />
+          </div>
+          <p>Sunglasses</p>
+          <p style="font-weight: 400;font-size: small; color: #808080;">See All Collections</p>
+        </div>
+        <div class="category-item">
+          <div class="image-container">
+            <img src="" alt="Bags" />
+          </div>
+          <p>Sun Wear</p>
+          <p style="font-weight: 400;font-size: small; color: #808080;">See All Collections</p>
+        </div>
+        <div class="category-item">
+          <div class="image-container">
+            <img src="image/hats.png" alt="Jackets" />
+          </div>
+          <p>Hats</p>
+          <p style="font-weight: 400;font-size: small; color: #808080;">See All Collections</p>
+        </div>
+        <div class="category-item">
+          <div class="image-container">
+            <img src="image/slippers.png" alt="Lingerie" />
+          </div>
+          <p>Slippers</p>
+          <p style="font-weight: 400;font-size: small; color: #808080;">See All Collections</p>
+        </div>
+        <div class="category-item">
+          <div class="image-container">
+            <img src="image/wigs.png" alt="Belts" />
+          </div>
+          <p>Wigs</p>
+          <p style="font-weight: 400;font-size: small; color: #808080;">See All Collections</p>
+        </div>
+        <div class="category-item">
+          <div class="image-container">
+            <img src="image/cosmetics.png" alt="Street Wear" />
+          </div>
+          <p>Cosmetics</p>
+          <p style="font-weight: 400;font-size: small; color: #808080;">See All Collections</p>
+
+        </div>
+
+      </div>
+      <button style="background-color: #882BEC; padding: 10px 40px; border-radius:15px;border: none; color: white; font-size: 16px; display: flex; align-items: center; gap: 5px; margin-left: 500px;margin-top: 20px; margin-bottom: 60px;">
+        See more
+        <div style="display: flex; gap: 1px;">
+          <img src="image/arrow.png" alt="Arrow"  />
+          <img src="image/arrow.png" alt="Arrow" />
+          <img src="image/arrow.png" alt="Arrow" />
+        </div>
+      </button>
+
+      <div class="banner">
+        <div class="banner-text">
+          <h1>Our Curated Summer Collection</h1>
+          <p>
+            Explore our curated summer collection featuring trending styles,
+            vibrant colors, and lightweight fabrics perfect for long days and
+            nights.
+          </p>
+          <button class="banner-button">Explore Now</button>
+        </div>
+        <div class="banner-image">
+          <img src="image/pic2.png" alt="Summer Collection" />
+        </div>
+      </div>
+    
+      <div class="categories-container">
+        <div style="display: inline-block;">
+        <h2 class="categories-title">Browse by category</h2>
+        <div style="display: inline-block;"><img src="image/prevArrow.png" style="margin-right: 10px; width: 20px;height: 20px; display: inline-block;"/><img src="image/nextArrow.png" style="margin-right: 10px; width: 20px;height: 20px;display: inline-block;" /></div>
+      </div>
+
+      <div class="categories">
+        <div class="category-card">
+          <div class="img-container">
+            <img src="image/shirt2.png" alt="Casual Wear" />
+          </div>
+          <p>Casual Wear</p>
+          <p style=" font-size: 1rem;color: #808080; font-size: 14px;font-weight: 200;margin-bottom: 10px;">Over 20 categories in the store</p>
+        </div>
+        <div class="category-card">
+          <div class="img-container">
+            <img src="image/vintage.png" alt="Dresses" />
+          </div>
+          <p>Dresses</p>
+          <p style=" font-size: 1rem;color: #808080; font-size: 14px;font-weight: 200;">Over 31 categories in the store</p>
+        </div>
+        <div class="category-card">
+          <div class="img-container">
+            <img src="image/beautyproduct.png" alt="Beauty Products" />
+          </div>
+          <p>Beauty Products</p>
+          <p style=" font-size: 1rem;color: #808080; font-size: 14px;font-weight: 200;">Over 24 categories in the store</p>
+        </div>
+        <div class="category-card">
+          <div class="img-container">
+            <img src="image/gymwears.png" alt="Gym Wear" />
+          </div>
+          <p>Gym Wear</p>
+          <p style=" font-size: 1rem;color: #808080; font-size: 14px;font-weight: 200;;">Over 62 categories in the store</p>
+        </div>
+      </div>
+
+
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo Section -->
+          <div class="footer-logo">
+            <img src="image/logo2.png" alt="Logo" class="logo">
+            <div class="social-icons">
+              <a href="#"><img src="image/insta.png" alt="Instagram"></a>
+              <a href="#"><img src="image/messenger.png" alt="WhatsApp"></a>
+              <a href="#"><img src="image/X.png" alt="Close"></a>
+            </div>
+          </div>
+      
+          <!-- Links Section -->
+          <div class="footer-links">
+            <div class="link-column">
+              <h4>About</h4>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">News & Blog</a></li>
+                <li><a href="#">Location</a></li>
+              </ul>
+            </div>
+            <div class="link-column">
+              <h4>Products</h4>
+              <ul>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Features</a></li>
+              </ul>
+            </div>
+            <div class="link-column">
+              <h4>Discover</h4>
+              <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Affiliates</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    </body>
+</html>

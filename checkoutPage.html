@@ -1,0 +1,335 @@
+<html>
+  <head>
+    <title>Checkout Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+
+  <nav class="bg-white py-2 border-b">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex justify-between items-center">
+        <div class="flex items-center gap-8">
+          <a href="#" class="text-lg font-bold"><img src="image/logo.png"</a>
+          <div class="hidden md:flex items-center gap-4">
+            <a href="#" class="text-gray-600"
+              ><i class="fa-solid fa-user" style="margin-right: 5px"></i
+              >Register/Signin
+              <i
+                class="fa-solid fa-chevron-down"
+                style="margin-left: 5px; margin-right: 20px"
+              ></i
+            ></a>
+            <a href="#" class="text-gray-600">Home</a>
+            <a href="#" class="text-gray-600">Men</a>
+            <a href="#" class="text-gray-600">Women</a>
+            <a href="#" class="text-gray-600">Kids</a>
+            <a href="#" class="text-gray-600">Accessories</a>
+            <a href="#" class="text-gray-600"
+              >More
+              <i
+                class="fa-solid fa-chevron-down"
+                style="margin-left: 5px; margin-right: 20px"
+              ></i
+            ></a>
+          </div>
+        </div>
+        <div class="flex items-center gap-10">
+          <div
+            class="relative"
+            style="padding-left: 30px; padding-right: 30px"
+          >
+            <input
+              type="text"
+              placeholder="Search"
+              class="border px-1 py-0 rounded-l-md"
+              style="
+                border-top-left-radius: 8px;
+                border-bottom-left-radius: 8px;
+              "
+            />
+            <button
+              class="absolute right-0 top-0 px-2 py-1 text-white bg-purple-600 rounded-r-md"
+              style="
+                border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px;
+              "
+            >
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+
+          <a
+            href="#"
+            class="text-gray-600"
+            style="font-size: 12px; display: inline-block"
+          >
+            <img
+              src="image/flag.png"
+              style="
+                width: 20px;
+                height: 20px;
+                border-radius: 10px;
+                display: inline-block;
+              "
+            />
+            EN/Currency
+            <i
+              class="fa-solid fa-chevron-down"
+              style="
+                margin-left: 0px;
+                margin-right: 0px;
+                display: inline-block;
+              "
+            ></i>
+          </a>
+          <a href="#" class="text-gray-400">
+            <i class="far fa-heart"></i>
+          </a>
+          <a href="#" class="text-purple-400">
+            <img
+              src="image/notify.png"
+              style="height: 30px; width: 30px; border-radius: 15px"
+            />
+          </a>
+        </div>
+        <a href="#" class="text-gray-600 md:hidden">Menu</a>
+      </div>
+    </div>
+  </nav>
+  <body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-6">
+      <div class="flex flex-wrap">
+        <!-- Shipping and Order Summary Section -->
+        <div class="w-full lg:w-2/3 px-4 mb-4 lg:mb-0">
+          <div class="bg-white p-8 shadow-sm">
+            <h2 class="font-semibold text-lg mb-6">Shipping Address</h2>
+            <div class="mb-4">
+              <label for="name" class="block mb-2">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="First & Last Name"
+                class="w-full p-2 border-2 border-gray-300"
+              />
+            </div>
+            <div class="flex -mx-2">
+              <div class="w-1/2 px-2 mb-4">
+                <label for="address1" class="block mb-2">Address 1</label>
+                <input
+                  type="text"
+                  id="address1"
+                  placeholder="412, Dubai St."
+                  class="w-full p-2 border-2 border-gray-300"
+                />
+              </div>
+              <div class="w-1/2 px-2 mb-4">
+                <label for="address2" class="block mb-2">Address 2</label>
+                <input
+                  type="text"
+                  id="address2"
+                  placeholder="23rd, Boulevard Ave."
+                  class="w-full p-2 border-2 border-gray-300"
+                />
+              </div>
+            </div>
+            <div class="flex -mx-2 mb-4">
+              <div class="w-1/2 px-2">
+                <label for="city" class="block mb-2">City</label>
+                <input
+                  type="text"
+                  id="city"
+                  placeholder="Enter City"
+                  class="w-full p-2 border-2 border-gray-300"
+                />
+              </div>
+              <div class="w-1/4 px-2">
+                <label for="state" class="block mb-2">State</label>
+                <select id="state" class="w-full p-2 border-2 border-gray-300">
+                  <option>Select State</option>
+                </select>
+              </div>
+              <div class="w-1/4 px-2">
+                <label for="zip" class="block mb-2">Zip</label>
+                <input
+                  type="text"
+                  id="zip"
+                  placeholder="Zip code"
+                  class="w-full p-2 border-2 border-gray-300"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Order Summary Section (kept the same) -->
+        <div class="w-full lg:w-1/3 px-4">
+          <div class="bg-white p-8 shadow-sm">
+            <h2 class="font-semibold text-lg mb-4">Order Summary</h2>
+            <hr
+              style="
+                border: 1px solid #c1c1c1;
+                margin: 10px 0;
+                width: auto;
+                margin-top: 10px;
+              "
+            />
+            <div class="flex justify-between items-center mb-2">
+              <div class="flex items-center">
+                <img
+                  src="image/shoes2.png"
+                  alt="Placeholder for a Burberry shine product image"
+                  class="mr-4"
+                style="width: 40px;height: 40px;"/>
+                <div>
+                  <h3 class="text-sm font-semibold">Burberry shine</h3>
+                  <p class="text-xs text-gray-500">FENDI</p>
+                </div>
+              </div>
+              <p class="text-sm">$150</p>
+            </div>
+            <div class="flex justify-between text-sm mb-2">
+              <p>Subtotal</p>
+              <p>$150</p>
+            </div>
+            <div class="flex justify-between text-sm mb-2">
+              <p>Shipping</p>
+              <p>$10</p>
+            </div>
+            <div class="flex justify-between text-sm mb-6">
+              <p>Tax</p>
+              <p>$5</p>
+            </div>
+            <hr
+              style="
+                border: 1px solid #c1c1c1;
+                margin: 10px 0;
+                width: auto;
+                margin-top: 20px;
+              "
+            />
+            <div class="flex justify-between text-sm font-semibold mb-6">
+              <p>Total</p>
+              <p>$165</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Payment Method Section -->
+      <div class="w-full lg:w-2/3 px-4 mb-4">
+        <div class="bg-white p-8 shadow-sm mt-6">
+            <h2 class="font-semibold text-lg mb-6">Payment Method</h2>
+            <div class="flex justify-between mb-4">
+                <!-- Card button -->
+                <button class="bg-yellow-400 w-1/3 p-4 text-white text-sm font-semibold flex flex-col items-center rounded-lg mr-4">
+                    <img src="image/card.png" class="mb-2" />
+                    <p>Card</p>
+                </button>
+                <!-- Wallet button -->
+                <button class="w-1/3 p-4 text-sm font-semibold border-2 border-gray-200 flex flex-col items-center rounded-lg mr-4">
+                    <img src="image/wallet.png" class="mb-2" />
+                    <p>Wallet</p>
+                </button>
+                <!-- Bank transfer button -->
+                <button class="w-1/3 p-4 text-sm font-semibold border-2 border-gray-200 flex flex-col items-center rounded-lg">
+                    <img src="image/bank transfere.png" class="mb-2" />
+                    <p>Bank transfer</p>
+                </button>
+            </div>
+
+            <!-- Form fields -->
+            <div class="mb-4">
+                <label for="name-on-card" class="block mb-2 font-bold">Name on card</label>
+                <input type="text" id="name-on-card" placeholder="First & Last Name" class="w-full p-2 border-2 border-gray-300">
+            </div>
+            <div class="mb-4">
+                <label for="card-number" class="block mb-2 font-bold">Card number</label>
+                <input type="text" id="card-number" placeholder="0000 0000 0000 0000" class="w-full p-2 border-2 border-gray-300">
+            </div>
+            <div class="flex -mx-2 mb-4">
+                <div class="w-1/3 px-2" >
+                    <label for="expiry" class="block mb-2 font-bold">Expiry</label>
+                    <select id="expiry" class="w-full p-2 border-2 border-gray-300">
+                        <option>MM</option>
+                    </select>
+                </div>
+                <div class="w-1/3 px-2">
+                    <select class="w-full p-2 border-2 border-gray-300 mt-8">
+                        <option>YYYY</option>
+                    </select>
+                </div>
+                <div class="w-1/3 px-2">
+                    <label for="cvv" class="block mb-2 font-bold">CVV</label>
+                    <input type="text" id="cvv" placeholder="CVV" class="w-full p-2 border-2 border-gray-300">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div> 
+</div>
+</div>
+
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Logo Section -->
+    <div class="footer-logo">
+      <img src="image/logo2.png" alt="Logo" class="logo">
+      <div class="social-icons">
+        <a href="#"><img src="image/insta.png" alt="Instagram"></a>
+        <a href="#"><img src="image/messenger.png" alt="WhatsApp"></a>
+        <a href="#"><img src="image/X.png" alt="Close"></a>
+      </div>
+    </div>
+
+    <!-- Links Section -->
+    <div class="footer-links">
+      <div class="link-column" >
+        <h4 style="margin-left: -20px;">About</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">News & Blog</a></li>
+          <li><a href="#">Location</a></li>
+        </ul>
+      </div>
+      <div class="link-column">
+        <h4 style="margin-left: -20px;">Products</h4>
+        <ul>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Store</a></li>
+          <li><a href="#">Features</a></li>
+        </ul>
+      </div>
+      <div class="link-column">
+        <h4 style="margin-left: -20px;">Discover</h4>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Customers</a></li>
+          <li><a href="#">Affiliates</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+ </body>
+</html>
